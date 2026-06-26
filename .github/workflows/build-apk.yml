@@ -12,15 +12,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Unzip project files (if uploaded as a zip instead of loose files)
-        run: |
-          if [ -f Lakshya-Android.zip ]; then
-            echo "Found Lakshya-Android.zip, extracting..."
-            unzip -o Lakshya-Android.zip -d .
-          else
-            echo "No zip found, assuming files were uploaded individually."
-          fi
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
