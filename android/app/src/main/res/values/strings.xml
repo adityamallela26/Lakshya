@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lakshya</string>
+    <string name="title_activity_main">Lakshya</string>
+    <string name="package_name">com.adityasuresh.lakshya</string>
+    <string name="custom_url_scheme">com.adityasuresh.lakshya</string>
+</resources>
